@@ -216,44 +216,156 @@
     ]
   },
   {
-      "id": "quote",
-      "fields": [
-        {
-          "component": "richtext",
-          "name": "quote",
-          "value": "",
-          "label": "Quote",
-          "valueType": "string"
-        },
-        {
-          "component": "text",
-          "valueType": "string",
-          "name": "author",
-          "label": "Author",
-          "value": ""
-        },
-        {
-          "component": "select",
-          "name": "classes",
-          "value": "",
-          "label": "Background Color",
-          "description": "The quote background color",
-          "valueType": "string",
-          "options": [
-            {
-              "name": "Red",
-              "value": "bg-red"
-            },
-            {
-              "name": "Green",
-              "value": "bg-green"
-            },
-            {
-              "name": "Blue",
-              "value": "bg-blue"
-            }
-          ]
-        }
-      ]
-    }
+    "id": "youtube",
+    "fields": [
+      {
+        "component": "text",
+        "name": "videoUrl",
+        "label": "YouTube Video URL",
+        "description": "Enter the YouTube video URL (supports youtube.com/watch, youtu.be, or embed URLs)",
+        "valueType": "string",
+        "required": true
+      },
+      {
+        "component": "select",
+        "name": "autoplay",
+        "label": "Autoplay",
+        "description": "Automatically start playing the video when the page loads",
+        "valueType": "string",
+        "value": "0",
+        "options": [
+          {
+            "name": "No",
+            "value": "0"
+          },
+          {
+            "name": "Yes",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "component": "select",
+        "name": "controls",
+        "label": "Show Controls",
+        "description": "Display video player controls",
+        "valueType": "string",
+        "value": "1",
+        "options": [
+          {
+            "name": "Yes",
+            "value": "1"
+          },
+          {
+            "name": "No",
+            "value": "0"
+          }
+        ]
+      },
+      {
+        "component": "select",
+        "name": "mute",
+        "label": "Mute",
+        "description": "Mute the video by default",
+        "valueType": "string",
+        "value": "0",
+        "options": [
+          {
+            "name": "No",
+            "value": "0"
+          },
+          {
+            "name": "Yes",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "component": "select",
+        "name": "loop",
+        "label": "Loop",
+        "description": "Loop the video continuously",
+        "valueType": "string",
+        "value": "0",
+        "options": [
+          {
+            "name": "No",
+            "value": "0"
+          },
+          {
+            "name": "Yes",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "component": "text",
+        "name": "start",
+        "label": "Start Time (seconds)",
+        "description": "Start playback at a specific time (e.g., 30 for 30 seconds)",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "end",
+        "label": "End Time (seconds)",
+        "description": "End playback at a specific time (e.g., 90 for 1:30)",
+        "valueType": "string"
+      },
+      {
+        "component": "select",
+        "name": "modestbranding",
+        "label": "Modest Branding",
+        "description": "Hide YouTube logo in control bar",
+        "valueType": "string",
+        "value": "0",
+        "options": [
+          {
+            "name": "No",
+            "value": "0"
+          },
+          {
+            "name": "Yes",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "component": "select",
+        "name": "rel",
+        "label": "Related Videos",
+        "description": "Show related videos when the video ends",
+        "valueType": "string",
+        "value": "1",
+        "options": [
+          {
+            "name": "Yes",
+            "value": "1"
+          },
+          {
+            "name": "No",
+            "value": "0"
+          }
+        ]
+      },
+      {
+        "component": "select",
+        "name": "cc_load_policy",
+        "label": "Closed Captions",
+        "description": "Show closed captions by default",
+        "valueType": "string",
+        "value": "0",
+        "options": [
+          {
+            "name": "No",
+            "value": "0"
+          },
+          {
+            "name": "Yes",
+            "value": "1"
+          }
+        ]
+      }
+    ]
+  }
 ]
