@@ -31,12 +31,15 @@
 
 .block.quote.bg-red {
     background-color: red;
+        color: white;
 }
 
 .block.quote.bg-green {
     background-color: green;
+        color: white;
 }
 
 .block.quote.bg-blue {
     background-color: blue;
+        color: white;
 }
