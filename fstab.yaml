@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://author-p89308-e1847259.adobeaemcloud.com/bin/franklin.delivery/fpenaloz-nttdata/aem-edge-services-poc/main"
+    url: "https://author-p89308-e1851410.adobeaemcloud.com/bin/franklin.delivery/fpenaloz-nttdata/aem-edge-services-poc/main"
     type: "markup"
     suffix: ".html"
