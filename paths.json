@@ -1,10 +1,10 @@
 {
   "mappings": [
-    "/content/poc-caf/:/",
-    "/content/poc-caf/configuration:/.helix/config.json",
-    "/content/poc-caf/metadata:/metadata.json"
+    "/content/poc-caf-edge-service/:/",
+    "/content/poc-caf-edge-service/configuration:/.helix/config.json",
+    "/content/poc-caf-edge-service/metadata:/metadata.json"
   ],
   "includes": [
-    "/content/poc-caf/"
+    "/content/poc-caf-edge-service/"
   ]
 }
